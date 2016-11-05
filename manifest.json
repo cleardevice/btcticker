@@ -1,0 +1,21 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "btc_icon_48.png"
+   },
+   "description": "This extension displays the current btc price on the badge icon.",
+   "icons": {
+      "128": "btc_icon_128.png",
+      "16": "btc_icon_16.png",
+      "48": "btc_icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD1UG6fk337kIz3xBdXGumgpPJP+5ZVXDuL32gDHFY6PEzsqv/+7nlm8FqjWs0H/EuFKAybpESxGAz+QflrnRL17pB/o5zuxs6xs2Dzazcw5EYCwJ4t8Me9KNUa+/TvPThui0jYQ5qCKRJoFikv2UgRRuqWZDQoW8UevXYuizwb8QIDAQAB",
+   "manifest_version": 2,
+   "name": "BTC Ticker",
+   "options_page": "options.html",
+   "permissions": [ "storage", "https://coinbase.com/api", "https://btc-e.com/api", "https://www.bitstamp.net/api", "https://api.exchange.coinbase.com/", "https://api.kraken.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.0"
+}

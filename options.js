@@ -7,7 +7,7 @@ function save_options() {
 
   var optionsOK = true;
 
-  if ((exchange == "bitfinex" || exchange == "bitstamp" || exchange == "coinbase_exchange") && currency == "eur") {
+  if ((exchange == "bitfinex" || exchange == "btcc" || exchange == "bitstamp" || exchange == "coinbase_exchange") && currency == "eur") {
     optionsOK = false;
   }
 

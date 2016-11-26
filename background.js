@@ -19,6 +19,15 @@ function updatebadge() {
       }
     });
   }
+  else if (exchange == "btcc") {
+    $.getJSON("https://pro-data.btcc.com/data/pro/ticker?symbol=XBTUSD",function (data) {
+      var badge = "n/a";
+
+      if (data['ticker']['Last']) {
+        localStorage['btc_usd'] = data['ticker']['Last'];
+      }
+    });
+  }
   else if (exchange == "bitstamp") {
     $.getJSON("https://www.bitstamp.net/api/ticker/",function (data) {
       var badge = "n/a";
